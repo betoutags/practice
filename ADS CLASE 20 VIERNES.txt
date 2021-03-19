@@ -1,0 +1,35 @@
+Enamed para tener dns con el puerto 56, configuramos dos maquinas, paraque se pudan comunicar como DNS de cache, 
+Tipos de registro dee DNS: 
+
+enamed comandos:
+cat /etc/named.conf
+escucara en cisrta ip y en cierto puerto
+configuración de donde estan los logs
+donde esta la zona, cual es el tipo de la zona y en que archivo estara
+cd/var/named
+rmp -qa|....
+generar archivo de zona
+vi utags.com.zone agregar zona
+podemos limitar por cuanto tiemo se puede actualizar la información
+el registro es desde la @ hasta el )
+SOA start of atority inidca los valorees de configuraciones hacia los esclavos, INDICA quien es el dueño, los esclavos solo responden
+los nombres siempre terminan con un punto como ns1.utags.com.
+correo electronico dentro del archivo de zona es: hostmaster.utags.com.
+dns exclavos se sincronizan frrecuentemente con los maestros
+primary DNS------ZONE TRANSFER--------------seconday DNS (como se transfiere)
+3H : refresh ---se  actualiza cada hora
+15 ; retry intenta cada 15 min
+1W ;  expire que si la maquina pierde conexion, ya no es valida  ya no responde 
+3h ; nxdomain ttl registros genrales de transferencia
+ftp es alias de www
+despues de configurar zone, reinisiamos el servicio y buscamos el log
+tail -f /var....
+netstat -atpnl| grep 53
+vi /etc/resolv.conf
+nslookup-----mostrar la configuracion que hicimos de DNS
+Zoneedit podemos comprar un dominio
+
+ZONEEDIT (ENCUENTRO LOS  COMANDOS PARA EDITAR LA ZONA)
+PARA QUE Y POR QUE SURGUIERON LOS DNS
+surguieron por que las maquinas cambiaban a cada rato de ip
+DNS dinamico
