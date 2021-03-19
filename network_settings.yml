@@ -1,3 +1,6 @@
 Network1:
   - NetworkName: abc
   - CIDR: 192.168.0.0/24
+Network2:
+  - NetworkName: fxd
+  - CIDR: 192.10.15.0/16
