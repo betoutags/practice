@@ -6,3 +6,6 @@ Listas de usuarios de GIT
 - MartaPerez
 - DiegoV4ldez
 - JoseGonzalez
+- Juanito Banana
+- Nepomuseno
+- DiegoV4ldez
