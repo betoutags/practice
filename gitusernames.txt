@@ -2,5 +2,9 @@ Listas de usuarios de GIT
 
 - betordzutags
 - MarlonTheOne
+<<<<<<< HEAD
 - Juanito Banana
 - Nepomuseno
+=======
+- DiegoV4ldez
+>>>>>>> 79455fe7e520f2ae0eccd8d132f1cbdcc54c898e
