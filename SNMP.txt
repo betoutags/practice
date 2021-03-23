@@ -1,0 +1,10 @@
+snmp-server community public ro
+snmp-server community private rw
+
+logging on 
+logging 192.168.4.10
+logging trap debugging
+
+
+snmp-server community snmp-cisco ro
+snmp-server community snmp-cisco-rw rw
