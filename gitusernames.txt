@@ -1,5 +1,8 @@
 Listas de usuarios de GIT
 
 - betordzutags
+- JorgeRomo
 - MarlonTheOne
+- MartaPerez
 - DiegoV4ldez
+- JoseGonzalez
