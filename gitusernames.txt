@@ -2,3 +2,5 @@ Listas de usuarios de GIT
 
 - betordzutags
 - MarlonTheOne
+- Juanito Banana
+- Nepomuseno
