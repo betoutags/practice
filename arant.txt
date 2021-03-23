@@ -1,0 +1,3 @@
+Las WAN son redes a gran escala que abarcan países e incluso continentes. No conectan ordenadores individuales, sino otras redes como LAN o MAN. Las WAN pueden ser públicas o estar gestionadas por empresas para conectar varias ubicaciones a grandes distancias. 
+Pero ¿cómo está estructurada una red WAN
+WAN es la abreviatura de Wide Area Network. Estas redes se extienden por grandes áreas geográficas y conectan redes más pequeñas como redes LAN (Local Area Networks) o MAN (Metropolitan Area Networks). Por esto, solo se utilizan en el sector profesional.
